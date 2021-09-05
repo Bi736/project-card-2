@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.head{
+
+}
+body{
+  background-color:rgba(33,33,33,255);
+}
+
+.portfile{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;  
+}
+
+
+.one{
+    border: 1px solid rgb(196, 194, 194);
+    margin: 0px 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color:rgba(51,51,51,255);
+    transform: scale(1.05);
+}
+
+
+.portfile .img{
+    margin: 0px 25px;
+    margin-top: 20px;
+}
+
+.portfile .img img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.portfile .name h1{
+    text-align: left;
+    color:rgb(253, 250, 250);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin: 0px 10px;
+    margin-top: 12px;
+}
+
+.text h2{
+    text-align: left;
+    font-size: 15px;
+    color: rgb(250, 246, 246);
+    opacity: .8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px 10px;
+}
+.txt p{
+    text-align: left;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 25px;
+    color: rgb(252, 249, 249);
+    margin: 10px 10px;
+    margin-top: 40px;
+}
+
+.icon{
+text-align: center;
+}
+.icon ul{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 60px;
+}
+.icon ul li{
+list-style: none;
+margin: 0px 10px;
+
+}
+.icon ul li i{
+    color: rgb(255, 251, 251);
+}
+
+.last{
+    margin-top: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: 600;
+}
+
+.left i{
+    color: white;
+    margin: 0px 40px;
+    font-size: 80px;
+}
+.right i {
+    color: white;
+    margin: 0px 40px;
+    font-size: 80px;
+}
+
+.two{
+    display: flex;
+}
+
+.left img{
+height: 120px;
+}
+.right img{
+    height: 120px;
+}
